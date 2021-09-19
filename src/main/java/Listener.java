@@ -18,7 +18,7 @@ public class Listener extends ListenerAdapter {
         );
     }
     private void german(MessageReceivedEvent event){
-        sendMessage(event, "Guten Morgen");
+        sendMessage(event, "Guten Morgen!");
     }
 
     private void sendMessage(MessageReceivedEvent event, MessageEmbed payload) {
